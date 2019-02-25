@@ -30,7 +30,7 @@ def find_the_cheese(array)# code an argument here
     if FALSE
       n += 1
     else
-      return name
+      return array[1]
     end
   end
 end
