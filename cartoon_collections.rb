@@ -10,7 +10,7 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map do |name|
     shout = name.capitalize
-    name << "!"
+    shout << "!"
   end
 end
 
