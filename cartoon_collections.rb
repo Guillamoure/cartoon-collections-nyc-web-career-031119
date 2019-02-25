@@ -23,8 +23,14 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-  place = 0
+  n = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if 
+  array.each do |name|
+    cheese_types[n] == name
+    if FALSE
+      n += 1
+    else
+      return name
+    end
   end
 end
