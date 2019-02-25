@@ -27,11 +27,8 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |name|
     if cheese_types.include? name
-    if FALSE
-    else
-      if cheese_types[4] == name
-      TRUE
-        return "butt"
+      if cheese_types[n] == name
+        return name
       else
         n += 1
       end
