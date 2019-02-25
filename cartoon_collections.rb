@@ -29,7 +29,7 @@ def find_the_cheese(array)# code an argument here
     cheese_types.include? name
     if FALSE
     else
-      cheese_types[4] == name
+      #cheese_types[4] == name
       if TRUE
         return "butt"
       else
