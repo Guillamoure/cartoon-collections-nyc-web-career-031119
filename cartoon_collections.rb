@@ -30,10 +30,10 @@ def find_the_cheese(array)# code an argument here
     if FALSE
     else
       cheese_types[n] == name
-      if FALSE
-        n += 1
-      else
+      if TRUE
         return "butt"
+      else
+        n += 1
       end
     end
     return nil
