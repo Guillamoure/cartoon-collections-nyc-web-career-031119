@@ -31,6 +31,8 @@ def find_the_cheese(array)# code an argument here
       cheese_types[place] == x
       if TRUE
         return x
+      else
+        place += 1
       end
   end
   return NIL
