@@ -26,7 +26,7 @@ def find_the_cheese(array)# code an argument here
   n = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |name|
-    cheese_types[n] == name
+    cheese_types[0] == name
     if FALSE
       n += 1
     else
