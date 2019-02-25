@@ -25,5 +25,10 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   n = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if !(array & cheese_types).empty?
+  if (array & cheese_types).empty?
+    return NIL
+  else
+    combo = array & cheese_types
+    return combo[0]
+  end
 end
