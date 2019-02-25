@@ -28,6 +28,5 @@ def find_the_cheese(array)# code an argument here
   array.find do |food|
     cheese_types[place] == food
     place += 1
-    end
   end
 end
