@@ -33,6 +33,6 @@ def find_the_cheese(array)# code an argument here
         n += 1
       end
     end
-    return nil
-  end
+    
+  endreturn nil
 end
