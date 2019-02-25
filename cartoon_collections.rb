@@ -34,6 +34,7 @@ def find_the_cheese(array)# code an argument here
       else
         place += 1
       end
+    else NIL
   end
   return NIL
   end
